@@ -28,7 +28,7 @@ ln -fs /usr/share/zoneinfo/Asia/Colombo /etc/localtime
 
 # install udp-custom
 echo downloading udp-custom
-wget "https://github.com/noobconner21/UDP-Custom-Script/raw/main/udp-custom-linux-amd64" -O /root/udp/udp-custom
+wget "https://github.com/nube50/culturavpn-udp/raw/refs/heads/main/udp-custom-linux-amd64" -O /root/udp/udp-custom
 chmod +x /root/udp/udp-custom
 
 echo downloading default config
