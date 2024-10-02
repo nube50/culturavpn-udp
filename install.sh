@@ -32,7 +32,7 @@ wget "https://github.com/noobconner21/UDP-Custom-Script/raw/main/udp-custom-linu
 chmod +x /root/udp/udp-custom
 
 echo downloading default config
-wget "https://raw.githubusercontent.com/noobconner21/UDP-Custom-Script/main/config.json" -O /root/udp/config.json
+wget "https://raw.githubusercontent.com/nube50/culturavpn-udp/refs/heads/main/config.json" -O /root/udp/config.json
 chmod 644 /root/udp/config.json
 
 if [ -z "$1" ]; then
